@@ -1,0 +1,80 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Type:</b>
+  <%= @offer.type %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @offer.title %>
+</p>
+
+<p>
+  <b>Byline:</b>
+  <%= @offer.byline %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%= @offer.category %>
+</p>
+
+<p>
+  <b>DetailedDescription:</b>
+  <%= @offer.detailedDescription %>
+</p>
+
+<p>
+  <b>TermsConditions:</b>
+  <%= @offer.termsConditions %>
+</p>
+
+<p>
+  <b>RetailPrice:</b>
+  <%= @offer.retailPrice %>
+</p>
+
+<p>
+  <b>DiscountPrice:</b>
+  <%= @offer.discountPrice %>
+</p>
+
+<p>
+  <b>PercentOff:</b>
+  <%= @offer.percentOff %>
+</p>
+
+<p>
+  <b>DollarValue:</b>
+  <%= @offer.dollarValue %>
+</p>
+
+<p>
+  <b>ValidationRequired:</b>
+  <%= @offer.validationRequired %>
+</p>
+
+<p>
+  <b>NumberOffered:</b>
+  <%= @offer.numberOffered %>
+</p>
+
+<p>
+  <b>StartDate:</b>
+  <%= @offer.startDate %>
+</p>
+
+<p>
+  <b>ExpirationDate:</b>
+  <%= @offer.expirationDate %>
+</p>
+
+<p>
+  <b>NumberStampsRequired:</b>
+  <%= @offer.numberStampsRequired %>
+</p>
+
+
+<%= link_to 'Edit', edit_offer_path(@offer) %> |
+<%= link_to 'Back', offers_path %>

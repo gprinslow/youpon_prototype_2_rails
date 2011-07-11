@@ -1,0 +1,35 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  type: MyString
+  title: MyString
+  byline: MyString
+  category: MyString
+  detailedDescription: MyString
+  termsConditions: MyString
+  retailPrice: MyString
+  discountPrice: MyString
+  percentOff: MyString
+  dollarValue: MyString
+  validationRequired: false
+  numberOffered: 1
+  startDate: 2011-06-30
+  expirationDate: 2011-06-30
+  numberStampsRequired: 1
+
+two:
+  type: MyString
+  title: MyString
+  byline: MyString
+  category: MyString
+  detailedDescription: MyString
+  termsConditions: MyString
+  retailPrice: MyString
+  discountPrice: MyString
+  percentOff: MyString
+  dollarValue: MyString
+  validationRequired: false
+  numberOffered: 1
+  startDate: 2011-06-30
+  expirationDate: 2011-06-30
+  numberStampsRequired: 1

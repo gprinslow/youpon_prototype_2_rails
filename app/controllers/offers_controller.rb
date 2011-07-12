@@ -7,6 +7,7 @@ class OffersController < ApplicationController
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @offers }
+      format.json { render :json => {:items => @offers}}
     end
   end
 

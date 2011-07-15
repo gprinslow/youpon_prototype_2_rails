@@ -47,9 +47,11 @@ class OffersController < ApplicationController
       if @offer.save
         format.html { redirect_to(@offer, :notice => 'Offer was successfully created.') }
         format.xml  { render :xml => @offer, :status => :created, :location => @offer }
+        format.json { render :json => @offer, :status => :created, :location => @offer }
       else
         format.html { render :action => "new" }
         format.xml  { render :xml => @offer.errors, :status => :unprocessable_entity }
+        format.json { render :json => @offer.errors, :status => :unprocessable_entity }
       end
     end
   end
